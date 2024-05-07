@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:zhangyao1990/elegant-admin.git main:gh-pages
+git push -f git@github.com:zhangyao1990/elegant-admin-docs.git main:gh-pages
 
 cd -
