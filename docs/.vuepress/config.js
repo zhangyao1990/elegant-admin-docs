@@ -4,7 +4,7 @@ module.exports = {
     theme: 'vdoing', // 使用依赖包主题
     title: "elegant-admin 文档",
     description: '一个基于Vue3、TypeScript、Pinia等技术栈搭建的脚手架',
-    // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+    base: '/elegant-admin-docs/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
         ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
@@ -70,7 +70,7 @@ module.exports = {
                 ]
             },
             {text: '资源', link: '/pages/db78e2/'},
-            {text: '案例', link: '/pages/5d571c/'},
+            // {text: '案例', link: '/pages/5d571c/'},
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         logo: '/img/logo.png', // 导航栏logo
@@ -124,7 +124,7 @@ module.exports = {
             ]
         },
         footer: { // 页脚信息
-            createYear: 2023, // 创建年份
+            createYear: 2024, // 创建年份
             copyrightInfo: 'Mr zhang | MIT License', // 博客版权信息，支持a标签
         },
     },
