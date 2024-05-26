@@ -1,0 +1,9 @@
+import{_ as a,k as s,F as e,W as n}from"./chunks/framework.56f03db6.js";const _=JSON.parse('{"title":"网络请求","description":"","frontmatter":{},"headers":[],"relativePath":"guide/request.md","filePath":"guide/request.md","lastUpdated":null}'),l={name:"guide/request.md"},t=n(`<h1 id="网络请求" tabindex="-1">网络请求 <a class="header-anchor" href="#网络请求" aria-label="Permalink to &quot;网络请求&quot;">​</a></h1><ul><li>项目封装了<code>Axios</code>来做网络请求，包括请求 Loading、错误处理、取消请求等功能</li><li>可以按照自己项目需求来进行封装</li></ul><h2 id="目录结构" tabindex="-1">目录结构 <a class="header-anchor" href="#目录结构" aria-label="Permalink to &quot;目录结构&quot;">​</a></h2><div class="language-txt"><button title="Copy Code" class="copy"></button><span class="lang">txt</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#babed8;">├─ api                       # 网络请求文件夹</span></span>
+<span class="line"><span style="color:#babed8;">├ ├─config                   # 网络请求相关配置 e.p：公共URL前缀</span></span>
+<span class="line"><span style="color:#babed8;">├ ├─helper                   # 辅助函数：错误处理、取消请求</span></span>
+<span class="line"><span style="color:#babed8;">├ ├ ├─axiosCancel.ts         # 取消请求函数</span></span>
+<span class="line"><span style="color:#babed8;">├ ├ ├─checkStatus.ts         # 检查请求返回的状态</span></span>
+<span class="line"><span style="color:#babed8;">├ ├─interface                # api接口的请求参数和返回数据的类型定义文件夹</span></span>
+<span class="line"><span style="color:#babed8;">├ ├─modules                  # 请求函数模块，强烈建议根据不同的模块创建不同的请求文件</span></span>
+<span class="line"><span style="color:#babed8;">├ └─index.ts                 # 封装后的axios</span></span>
+<span class="line"><span style="color:#babed8;">└─</span></span></code></pre></div>`,4),o=[t];function p(i,c,r,d,b,u){return s(),e("div",null,o)}const m=a(l,[["render",p]]);export{_ as __pageData,m as default};
