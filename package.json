@@ -1,27 +1,27 @@
 {
-  "name": "theme-vdoing-doc",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
-    "editFm": "node utils/editFrontmatter.js"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "dayjs": "^1.9.7",
-    "inquirer": "^7.1.0",
-    "json2yaml": "^1.1.0",
-    "vuepress": "1.9.2",
-    "vuepress-plugin-baidu-tongji": "^1.0.1",
-    "vuepress-plugin-demo-block": "^0.7.2",
-    "vuepress-plugin-fulltext-search": "^2.2.1",
-    "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-thirdparty-search": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.12.3",
-    "yamljs": "^0.3.0"
-  },
-  "dependencies": {}
+	"name": "elegant-admin-docs",
+	"version": "1.0.0",
+	"description": "Elegant-Admin开源管理系统文档",
+	"author": {
+		"name": "zhangyao1990",
+		"email": "97972619@qq.com",
+		"url": "https://github.com/zhangyao1990"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/zhangyao1990/elegant-admin-docs",
+	"scripts": {
+		"docs:dev": "vitepress dev docs --host",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs",
+		"deploy": "sh deploy.sh"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"markdown-it-custom-attrs": "^1.0.2",
+		"sass": "^1.67.0",
+		"typescript": "^5.1.6",
+		"vite": "^4.3.9",
+		"vitepress": "1.0.0-beta.7",
+		"vue": "^3.3.4"
+	}
 }

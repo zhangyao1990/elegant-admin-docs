@@ -4,10 +4,10 @@
 set -e
 
 # 构建
-pnpm run build
+pnpm run docs:build
 
 # cd 到构建输出的目录下
-cd docs/.vuepress/dist
+cd docs/.vitepress/dist
 
 # 部署到自定义域域名
 # echo 'www.example.com' > CNAME
